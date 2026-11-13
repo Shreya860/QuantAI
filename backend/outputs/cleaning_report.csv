@@ -1,0 +1,4 @@
+,rows_in,duplicate_dates,nonpositive_price_rows,missing_before,splits_adjusted,rows_out
+ADANIPORTS,3322,0,0,0,{'2010-09-23': 5.0},3322
+SYNTH_PEER1,3322,0,0,0,{},3322
+SYNTH_PEER2,3322,0,0,0,{},3322

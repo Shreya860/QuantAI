@@ -1,0 +1,12 @@
+"""Load config/config.yaml into a plain nested dict (A8)."""
+from pathlib import Path
+import yaml
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def load_config(path=None) -> dict:
+    path = Path(path) if path else ROOT / "config" / "config.yaml"
+    with open(path) as f:
+        cfg = yaml.safe_load(f)
+    return cfg
